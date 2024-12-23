@@ -1,0 +1,1 @@
+A responsive personal portfolio website built with React, Tailwind CSS, and Bootstrap, featuring an interactive AI Personality Matcher powered by OpenAI APIs. Includes a Node.js backend for dynamic content handling and optimized performance across devices.
