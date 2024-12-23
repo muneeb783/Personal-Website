@@ -10,7 +10,7 @@ app.use(cors());
 
 // OpenAI API setup
 const openai = new OpenAI({
-  apiKey: "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"
+  apiKey: "defkey"
 });
 
 // Initialize variables
