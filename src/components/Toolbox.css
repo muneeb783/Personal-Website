@@ -1,0 +1,135 @@
+.section {
+    background-color: #1a1e23;
+    padding: 3rem 1.5rem;
+}
+
+.toolbox {
+    text-align: center;
+    color: #ffffff;
+    background-color: #1a1e23;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .toolbox h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    color: white;
+  }
+  
+  .toolbox-grid {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .toolbox-category {
+    flex: 1;
+    max-width: 300px;
+  }
+  
+  .toolbox-category h2 {
+    font-size: 1.75rem;
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: #ffffff;
+    margin-bottom: 30px;
+  }
+  
+  .tool-icons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-items: center;
+  }
+  
+  .tool-icons div {
+    text-align: center;
+  }
+  
+  .tool-icons img {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 10px;
+  }
+  
+  .tool-icons p {
+    font-size: 1rem;
+    margin: 0;
+  }
+
+  .typescript {
+    transition: 
+    transform 0.2s ease;
+    ;
+  }
+
+  .typescript:hover {
+    transform: scale(1.2);
+  }
+
+  .react {
+    transition: 
+    transform 0.2s ease;
+    ;
+  }
+
+  .react:hover {
+    transform: scale(1.2);
+  }
+
+  .nextjs {
+    transition: 
+    transform 0.2s ease;
+    ;
+  }
+
+  .nextjs:hover {
+    transform: scale(1.2);
+  }
+
+  .bootstrap {
+    transition: 
+    transform 0.2s ease;
+    ;
+  }
+
+  .bootstrap:hover {
+    transform: scale(1.2);
+  }
+
+  .python {
+    transition: 
+    transform 0.2s ease;
+    ;
+  }
+
+  .python:hover {
+    transform: scale(1.2);
+  }
+
+  .git {
+    transition: 
+    transform 0.2s ease;
+    ;
+  }
+
+  .git:hover {
+    transform: scale(1.2);
+  }
+
+  .fire {
+    transition: 
+    transform 0.2s ease;
+    ;
+  }
+
+  .fire:hover {
+    transform: scale(1.2);
+  }
+
+  

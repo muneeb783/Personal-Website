@@ -1,0 +1,129 @@
+.achievements {
+    padding: 2rem;
+    background-color: #1a1e23;
+  }
+  
+  .achievements h2 {
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 2rem;
+  }
+  
+  .card {
+    width: 100%;
+    height: 100%;
+    max-height: 400px;
+    max-width: 400px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #40454b;
+    scroll-snap-align: start;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-body {
+    padding: 1rem;
+  }
+  
+  .card-title {
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: white;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: white;
+  }
+  
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modal-content {
+    background: #40454b;
+    padding: 2rem;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 650px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    text-align: left;
+  }
+  
+  .modal-content a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    max-width: fit-content;
+    max-height: 45px;
+    background-color: #2dd4bf;
+    color: #000000;
+    padding: 0.5rem 1.05rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    font-weight: 500;
+    margin-bottom: 10px;
+    transition: 
+      background-color 0.2s ease,
+      color 0.2s ease,
+      transform 0.2s ease;
+  }
+  
+  .modal-content a:hover {
+    background-color: #1f7e75;
+    color: #ffffff;
+    transform: scale(1.1);
+  }
+  .modal-content h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .modal-content p {
+    margin-bottom: 1rem;
+  }
+
+  .close-button {
+    background-color: #2dd4bf;
+    color: #1a1e23;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .close-button:hover {
+    background-color: #1f7e75;
+    transform: scale(1.05);
+
+    }
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    }
+.right-heading {
+    margin-left: auto;
+    font-size: 0.875rem;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    }
