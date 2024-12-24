@@ -1,10 +1,13 @@
 {
+  "homepage": "https://muneeb783.github.io.Personal-Website",
   "name": "muneebs-personal-web",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "start": "node server.cjs",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d  dist",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
