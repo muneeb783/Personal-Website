@@ -49,14 +49,14 @@ export default function Achievements() {
     {
       title: "Software Developer - RoboJackets",
       description: "I contributed to the automation team by optimizing the Mars Rover’s depth perception system and traversability using LIDAR technology, extending the range from 5 meters to....",
-      github: "https://github.com/user/award-y",
+      github: "https://github.com/RoboJackets/urc-software.git",
       details: bulletPoints1,
       timeline: "Aug 2024 - Present"
     },
     {
       title: "App Development ",
       description: "I developed a mobile application in Android Studio inspired by WanderSync, focusing on seamless content synchronization and sharing across devices. I engineered a robust....",
-      github: "https://github.com/user/certification-z",
+      github: "https://github.com/muneeb783/App-Dev.git",
       details: bulletPoints2,
       timeline: "Aug 2024 - Dec 2024"
     },
